@@ -1,0 +1,4 @@
+out/
+gcc4/
+*.exe
+lib/
