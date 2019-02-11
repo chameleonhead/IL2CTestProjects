@@ -53,13 +53,11 @@ void Test1_Program_Main(il2c_arraytype(System_String)* args)
     //-------------------
     // [3-6] IL body:
 
-    /* IL_0000: nop  */
-    /* IL_0001: ldstr "Hello, World" */
+    /* IL_0000: ldstr "Hello, World"            : Program.cs(9) */
     frame__.stack0_0__ = Test1_string0__;
-    /* IL_0006: call System.Console.WriteLine */
+    /* IL_0005: call System.Console.WriteLine   : Program.cs(9) */
     System_Console_WriteLine_10(frame__.stack0_0__);
-    /* IL_000b: nop  */
-    /* IL_000c: ret  */
+    /* IL_000a: ret                             : Program.cs(10) */
     il2c_unlink_execution_frame(&frame__);
     return;
 }
@@ -100,8 +98,7 @@ void Test1_Program__ctor(Test1_Program* this__)
     frame__.stack0_0__ = this__;
     /* IL_0001: call System.Object..ctor */
     System_Object__ctor((System_Object*)frame__.stack0_0__);
-    /* IL_0006: nop  */
-    /* IL_0007: ret  */
+    /* IL_0006: ret  */
     il2c_unlink_execution_frame(&frame__);
     return;
 }
